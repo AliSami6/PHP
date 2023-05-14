@@ -8,4 +8,10 @@ class Personal{
 Personal::$name;
  echo Personal::$name;
 Personal::show();
+
+
+echo "<br>";
+
+
+
 ?>
