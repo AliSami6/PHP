@@ -8,11 +8,14 @@ class mathematics
 	{
 		return "Your number is: " . $this->number;
 	}
+	public function setNumber($number){
+		$this->number = $number;
+	}
 }
 
-$math = new mathematics;
+$math = new mathematics();
 
-$math->number = 10;
+$math->setNumber(10);// can access in that specific class 
 
 echo $math->result();
 
