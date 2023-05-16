@@ -22,7 +22,7 @@ class divide extends mathematics
 }
 
 $divideObject = new divide;
-$divideObject->setNumber(14);
+$divideObject->setNumber(74);
 echo $divideObject->divideByTwo();
 
 ?>
